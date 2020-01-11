@@ -1,0 +1,4 @@
+orchestatorService/node_modules/
+orderService/node_modules
+paymentService/node_modules
+kafkaBroker/node_modules
