@@ -22,7 +22,7 @@ mongoose.connect("mongodb://localhost:27017/orderdb",{ useNewUrlParser : true,us
 
     const consumer = new Consumer();
 
-    consumer.addTopics(["ORDER_SERVICE"]).then(() => {
+    consumer.addTopics(["ORDER_SERVICE","SERVICE_REPLY"]).then(() => {
         consumer.consume(message => {
             console.log("consumed message",message);
             eventHandler(JSON.parse(message));
