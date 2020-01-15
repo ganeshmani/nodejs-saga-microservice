@@ -1,5 +1,7 @@
 Saga Pattern Implementation - Nodejs Microservices
 
+![Implementation](./saga-nodejs.png)
+
 ## Prerequisites
 
  - [Kafka](https://kafka.apache.org/downloads)
